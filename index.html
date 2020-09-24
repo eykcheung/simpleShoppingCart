@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/application.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+
+  <div class = "header">
+    <h1 class = "text-center my-5">Shopping Cart</h1>
+  </div>
+
+  <!-- table body: start -->
+  <div class = "container">
+    <div class = "row itemRow">
+        <div class = "col-xs-3 itemName">Salmon</div>
+        <div class = "col-xs-3 itemPrice">
+          <div class = "itemCcy">$</div>
+          <div class = "itemCost">60.00</div>
+        </div>
+        <div class = "col-xs-3 itemQty">
+          <div class = "qtyLabel">QTY</div>
+          <div class = "qtyAmt"><input type="number" value="100" /></div>
+        </div>
+        <div class = "col-xs-1">
+          <button class="btn btn-light btn-sm remove">Remove</button>
+        </div>
+        <div class = "col-xs-2">
+          <div class = "itemSubTotal">
+            <div class = "itemSubCcy">$</div>
+            <div class = "itemSubAmt">--.--</div>
+          </div>
+        </div>
+    </div>
+
+    <div class = "row itemRow">
+        <div class = "col-xs-3 itemName">Tuna</div>
+        <div class = "col-xs-3 itemPrice">
+          <div class = "itemCcy">$</div>
+          <div class = "itemCost">50.00</div>
+        </div>
+        <div class = "col-xs-3 itemQty">
+          <div class = "qtyLabel">QTY</div>
+          <div class = "qtyAmt"><input type="number" value="100" /></div>
+        </div>
+        <div class = "col-xs-1">
+          <button class="btn btn-light btn-sm remove">Remove</button>
+        </div>
+        <div class = "col-xs-2">
+          <div class = "itemSubTotal">
+            <div class = "itemSubCcy">$</div>
+            <div class = "itemSubAmt">--.--</div>
+          </div>
+        </div>
+    </div>
+
+    <div class = "row itemRow">
+        <div class = "col-xs-3 itemName">Carp</div>
+        <div class = "col-xs-3 itemPrice">
+          <div class = "itemCcy">$</div>
+          <div class = "itemCost">40.00</div>
+        </div>
+        <div class = "col-xs-3 itemQty">
+          <div class = "qtyLabel">QTY</div>
+          <div class = "qtyAmt"><input type="number" value="100" /></div>
+        </div>
+        <div class = "col-xs-1">
+          <button class="btn btn-light btn-sm remove">Remove</button>
+        </div>
+        <div class = "col-xs-2">
+          <div class = "itemSubTotal">
+            <div class = "itemSubCcy">$</div>
+            <div class = "itemSubAmt">--.--</div>
+          </div>
+        </div>
+    </div>
+
+    <div class = "row itemRow">
+        <div class = "col-xs-3 itemName">Pork</div>
+        <div class = "col-xs-3 itemPrice">
+          <div class = "itemCcy">$</div>
+          <div class = "itemCost">50.00</div>
+        </div>
+        <div class = "col-xs-3 itemQty">
+          <div class = "qtyLabel">QTY</div>
+          <div class = "qtyAmt"><input type="number" value="100" /></div>
+        </div>
+        <div class = "col-xs-1">
+          <button class="btn btn-light btn-sm remove">Remove</button>
+        </div>
+        <div class = "col-xs-2">
+          <div class = "itemSubTotal">
+            <div class = "itemSubCcy">$</div>
+            <div class = "itemSubAmt">--.--</div>
+          </div>
+        </div>
+    </div>
+
+    <div class = "row itemRow">
+        <div class = "col-xs-3 itemName">Beef</div>
+        <div class = "col-xs-3 itemPrice">
+          <div class = "itemCcy">$</div>
+          <div class = "itemCost">40.00</div>
+        </div>
+        <div class = "col-xs-3 itemQty">
+          <div class = "qtyLabel">QTY</div>
+          <div class = "qtyAmt"><input type="number" value="100" /></div>
+        </div>
+        <div class = "col-xs-1">
+          <button class="btn btn-light btn-sm remove">Remove</button>
+        </div>
+        <div class = "col-xs-2">
+          <div class = "itemSubTotal">
+            <div class = "itemSubCcy">$</div>
+            <div class = "itemSubAmt">--.--</div>
+          </div>
+        </div>
+    </div>
+
+    <div class = "row itemRow">
+        <div class = "col-xs-3 itemName">Chicken</div>
+        <div class = "col-xs-3 itemPrice">
+          <div class = "itemCcy">$</div>
+          <div class = "itemCost">25.00</div>
+        </div>
+        <div class = "col-xs-3 itemQty">
+          <div class = "qtyLabel">QTY</div>
+          <div class = "qtyAmt"><input type="number" value="100" /></div>
+        </div>
+        <div class = "col-xs-1">
+          <button class="btn btn-light btn-sm remove">Remove</button>
+        </div>
+        <div class = "col-xs-2">
+          <div class = "itemSubTotal">
+            <div class = "itemSubCcy">$</div>
+            <div class = "itemSubAmt">--.--</div>
+          </div>
+        </div>
+    </div>
+
+    <div class = "row itemRow">
+        <div class = "col-xs-3 itemName">Cereal</div>
+        <div class = "col-xs-3 itemPrice">
+          <div class = "itemCcy">$</div>
+          <div class = "itemCost">45.00</div>
+        </div>
+        <div class = "col-xs-3 itemQty">
+          <div class = "qtyLabel">QTY</div>
+          <div class = "qtyAmt"><input type="number" value="100" /></div>
+        </div>
+        <div class = "col-xs-1">
+          <button class="btn btn-light btn-sm remove">Remove</button>
+        </div>
+        <div class = "col-xs-2">
+          <div class = "itemSubTotal">
+            <div class = "itemSubCcy">$</div>
+            <div class = "itemSubAmt">--.--</div>
+          </div>
+        </div>
+    </div>
+
+    <div class = "row itemRow">
+        <div class = "col-xs-3 itemName">Milk</div>
+        <div class = "col-xs-3 itemPrice">
+          <div class = "itemCcy">$</div>
+          <div class = "itemCost">20.00</div>
+        </div>
+        <div class = "col-xs-3 itemQty">
+          <div class = "qtyLabel">QTY</div>
+          <div class = "qtyAmt"><input type="number" value="100" /></div>
+        </div>
+        <div class = "col-xs-1">
+          <button class="btn btn-light btn-sm remove">Remove</button>
+        </div>
+        <div class = "col-xs-2">
+          <div class = "itemSubTotal">
+            <div class = "itemSubCcy">$</div>
+            <div class = "itemSubAmt">--.--</div>
+          </div>
+        </div>
+    </div>
+
+    <div class = "row itemRow">
+        <div class = "col-xs-3 itemName">Sugar</div>
+        <div class = "col-xs-3 itemPrice">
+          <div class = "itemCcy">$</div>
+          <div class = "itemCost">10.00</div>
+        </div>
+        <div class = "col-xs-3 itemQty">
+          <div class = "qtyLabel">QTY</div>
+          <div class = "qtyAmt"><input type="number" value="100" /></div>
+        </div>
+        <div class = "col-xs-1">
+          <button class="btn btn-light btn-sm remove">Remove</button>
+        </div>
+        <div class = "col-xs-2">
+          <div class = "itemSubTotal">
+            <div class = "itemSubCcy">$</div>
+            <div class = "itemSubAmt">--.--</div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Add item row: start -->
+    <div class = "row addItemRow">
+      <div class = "col-xs-3 addItemName itemName"><input class = "addItemNameInput" type = "text" value = "Apple" /></div>
+
+      <div class = "col-xs-3 addItemPrice itemPrice">
+        <div class = "itemCcy">$</div>
+        <div class = "itemCost addItemCost"><input class = "addItemCostInput" type = "number" value = "15.00" /></div>
+      </div>
+
+      <div class = "col-xs-1">
+        <button class = "btn btn-dark btn-sm add">Add</button>
+      </div>
+    </div>
+    <!-- Add item row: end -->
+
+    <div class = "row totalPriceRow">
+      <div class = "col-xs-4 totalPriceText">Total Price:</div>
+
+      <div class = "col-xs-4 totalPrice">
+        <div class = "totalPriceCcy">$</div>
+        <div class = "totalPriceCost">--.--</div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>      <!--close container -->
+  <!-- table body: end -->
+
+  </body>
+</html>
