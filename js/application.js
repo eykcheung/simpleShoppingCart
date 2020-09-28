@@ -19,7 +19,7 @@ var updateSubTotal = function (ele) {
 
   //item sub-total
   var subTotal = itemCost * itemQuantity;
-  $(ele).children('.itemSubAmt').html(subTotal);
+  $(ele).find('.itemSubAmt').html(subTotal);
 
   return subTotal;
 }
